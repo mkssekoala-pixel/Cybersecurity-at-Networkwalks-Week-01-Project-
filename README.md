@@ -68,7 +68,7 @@ The lab provides an isolated environment for cybersecurity learning and authoriz
 
 Oracle VirtualBox was downloaded from the official site and installed on the Windows 11 host.
 
-![VirtualBox installation complete](Virtual_box_config.png)
+![VirtualBox installation complete](https://github.com/mkssekoala-pixel/Cybersecurity-at-Networkwalks-Week-01-Project-/blob/69df6d57a518a8d9f1f31a9bd3dd553a197b915a/Virtual%20box%20config.png)
 
 ---
 
@@ -76,7 +76,7 @@ Oracle VirtualBox was downloaded from the official site and installed on the Win
 
 The pre-built Kali Linux VirtualBox image was downloaded from the official Kali website and imported into VirtualBox.
 
-![Kali VM summary in VirtualBox](Kali_VM_config.png)
+![Kali VM summary in VirtualBox](https://github.com/mkssekoala-pixel/Cybersecurity-at-Networkwalks-Week-01-Project-/blob/69df6d57a518a8d9f1f31a9bd3dd553a197b915a/Kali%20VM%20config.png)
 
 ---
 
@@ -91,9 +91,9 @@ DHCP:        Enabled
 IPv6:        Disabled
 ```
 
-![VirtualBox File > Tools > Network menu](Network_config.png)
+![VirtualBox File > Tools > Network menu](https://github.com/mkssekoala-pixel/Cybersecurity-at-Networkwalks-Week-01-Project-/blob/69df6d57a518a8d9f1f31a9bd3dd553a197b915a/Network%20config.png)
 
-![NatNetwork configuration](NATNetwork.png)
+![NatNetwork configuration](https://github.com/mkssekoala-pixel/Cybersecurity-at-Networkwalks-Week-01-Project-/blob/69df6d57a518a8d9f1f31a9bd3dd553a197b915a/NATNetwork.png)
 
 A **NAT Network** was chosen so that multiple VMs on the same network can communicate with each other while still having outbound Internet access through NAT.
 
@@ -111,7 +111,7 @@ Promiscuous Mode: Allow All
 Cable Connected:  Yes
 ```
 
-![Kali VM network adapter settings](Network_settings.png)
+![Kali VM network adapter settings](https://github.com/mkssekoala-pixel/Cybersecurity-at-Networkwalks-Week-01-Project-/blob/69df6d57a518a8d9f1f31a9bd3dd553a197b915a/Network%20settings.png)
 
 ---
 
@@ -152,7 +152,7 @@ Make Permanent: Enabled
 
 Kali was first booted on the NAT Network.
 
-![Kali Linux desktop](welcome_to_kali_VM_.png)
+![Kali Linux desktop](https://github.com/mkssekoala-pixel/Cybersecurity-at-Networkwalks-Week-01-Project-/blob/69df6d57a518a8d9f1f31a9bd3dd553a197b915a/welcome%20to%20kali%20VM%20.png)
 
 Using **Advanced Network Configuration** (`nm-connection-editor`), the wired connection's **IPv4 Settings** were changed to Method: **Manual**:
 
@@ -163,7 +163,7 @@ Gateway:  10.0.0.1
 DNS:      10.0.0.1
 ```
 
-![IPv4 manual configuration](wired_connection_config.png)
+![IPv4 manual configuration](https://github.com/mkssekoala-pixel/Cybersecurity-at-Networkwalks-Week-01-Project-/blob/69df6d57a518a8d9f1f31a9bd3dd553a197b915a/wired%20connection%20config.png)
 
 The connection was then restarted from the terminal to apply the settings:
 
@@ -173,9 +173,7 @@ sudo nmcli connection down "Wired connection 1"
 sudo nmcli connection up "Wired connection 1"
 ```
 
-![nmcli commands restarting the connection](shell_commands_for_internt_connection_1.png)
-
----
+![nmcli commands restarting the connection](https://github.com/mkssekoala-pixel/Cybersecurity-at-Networkwalks-Week-01-Project-/blob/69df6d57a518a8d9f1f31a9bd3dd553a197b915a/shell%20commands%20for%20internt%20connection.png)
 
 ## 🔎 Verification
 
@@ -183,7 +181,7 @@ sudo nmcli connection up "Wired connection 1"
 
 After applying the static IP, Kali reached the Internet successfully: Firefox inside the VM loads YouTube while the terminal shows the connection active.
 
-![Kali Internet access proof](internert_connection_is_succefuly_connected_1.png)
+![Kali Internet access proof](https://github.com/mkssekoala-pixel/Cybersecurity-at-Networkwalks-Week-01-Project-/blob/69df6d57a518a8d9f1f31a9bd3dd553a197b915a/internert%20connection%20is%20succefuly%20connected.png)
 
 ### IP address and connectivity checks
 
@@ -233,10 +231,10 @@ This lab is for **educational purposes only**. Use it only against systems you o
 
 ---
 
-## 👤 Author
+## 👤 Author 
 
-**<Your Full Name>**
-LinkedIn: <your LinkedIn URL>
+**<MkS SEKOALA>**
+LinkedIn:  www.linkedin.com/in/mks-sekoala-6b323b345L>
 
 ## 📌 Project Information
 
